@@ -2,7 +2,7 @@ import tkinter as tk
 import numpy as np
 import joblib
 
-model = joblib.load('Data/tictac_model.pkl')
+model = joblib.load('tictac_model.pkl')
 
 root = tk.Tk()
 root.title("Tic Tac Toe - AI vs You")
