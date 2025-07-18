@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 import joblib
 
-single = np.loadtxt('Data/tictac_single.txt')
+single = np.loadtxt('tictac_single.txt')
 
 single_df = pd.DataFrame(single).astype(int)
 single_df = single_df.rename(columns={9:"Best Move"})
